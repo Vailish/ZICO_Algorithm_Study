@@ -60,3 +60,6 @@
    - merge를 하면 master파일과 합쳐집니다.
    - 매일 00시와 스터디 직전에 merge 할 예정입니다. 
 ```
+
+- 기타 git branch에 대한 정보
+https://eunhee-programming.tistory.com/256
