@@ -39,18 +39,27 @@
 
 
 #### 깃허브에서 받는 방법(최초)
-1. https://github.com/Vailish/ZICO_Algorithm_Study.git를 fork해 갑니다
 
-2. clone을 통해서 저장 위치를 정합니다.
+1. clone을 통해서 저장 위치를 정합니다.
 
-3. 사용 전 git pull origin master 을 통해서 업데이트를 한 후 사용합니다
+2. 사용 전 git pull origin **master** 을 통해서 업데이트를 한 후 사용합니다
 
 
 #### 깃허브에 올리는 방법
+```
+0. git checkout -b <vailish> 를 통해서 branch 를 생성해 줍니다.
+   - branch 이름은 본인 이름 혹은 닉네임으로 만들어 줍니다.
 1. add를 통해 저장합니다
 2. commit -m '' 커밋을 생성합니다.
 3. push를 사용해 저장한 내용을 올려줍니다.
    - \~git push origin master\~ 가 아닌
-   - git push origin vailish 와 같이 본인의 이름 혹은 닉네임으로 올려줍니다.
-4. merge를 통해 승인처리가 되면 master파일과 합쳐집니다.
-   - 매일 00시에 merge 할 예정입니다. 
+   - git push origin vailish 와 같이 0번에서 생성한 값을 넣어줍니다.
+5. 마스터 서버로 들어가 request를 합니다.
+   - https://github.com/Vailish/ZICO_Algorithm_Study.git
+6. 마스터가 request 받은 내용을 merge를 합니다.
+   - merge를 하면 master파일과 합쳐집니다.
+   - 매일 00시와 스터디 직전에 merge 할 예정입니다. 
+```
+
+- 기타 git branch에 대한 정보
+https://eunhee-programming.tistory.com/256
