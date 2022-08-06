@@ -1,0 +1,5 @@
+N = int(input())
+L = list(map(int, input().split()))
+L.sort()
+T = int(N / 2)
+print(L[T])
