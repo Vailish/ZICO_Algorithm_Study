@@ -3,7 +3,6 @@ alph_str = input()
 for alph in alph_str:
     print(ord(alph) - 64, end=' ')
 
-
 '''
 # ord 미사용
 
