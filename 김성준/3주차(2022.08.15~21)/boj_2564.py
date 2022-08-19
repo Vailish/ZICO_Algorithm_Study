@@ -22,7 +22,7 @@ for store_d, store_l in store:
         result += abs(dong_l - store_l)
     
     # dong과 평행한 line 일 때
-    elif dong_d == store_d:
+    elif store_d == line:
         if  dong_l + store_l + line_v <= line * 2 - dong_l - store_l + line_v:
             result += dong_l + store_l + line_v
         else:
@@ -36,3 +36,5 @@ for store_d, store_l in store:
         else:
             result += line + line_v - dong_l - store_l
 print(result)
+
+# 이동하면서 count 해서 구해주기
