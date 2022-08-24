@@ -31,8 +31,8 @@ def pascal(stack):
 
 
 for t in range(1, int(input()) + 1):
-    print(f'#{t}')
     n = int(input())
+    print(f'#{t}')
 
     stack = []
     pascal(stack)
