@@ -23,9 +23,12 @@ T = int(input())
 
 for testcase in range(1, T + 1):
     number = input()
-    str_date = f'{number[:4]}-{number[4:6]}-{number[6:]}'  # YYYY-MM-DD 형식으로 변환
+    str_date = (
+        f'{number[:4]}-{number[4:6]}-{number[6:]}'  # YYYY-MM-DD 형식으로 변환 2022-08-08
+    )
     try:  # 날짜 형식에 맞는지 체크
         datetime.datetime.strptime(str_date, '%Y-%m-%d')
+        print(type(datetime.datetime.strptime(str_date, '%Y-%m-%d')))
     except ValueError:  # ValueError발생 시 -1 출력
         print(f'#{testcase} -1')
         continue
