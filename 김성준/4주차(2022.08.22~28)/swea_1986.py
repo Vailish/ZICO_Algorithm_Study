@@ -6,4 +6,5 @@
 # print()
 
 for case in range(1, 1+int(input())):
-    ([(-1)**i * int(i + 1 // 2) for i in range(1, 1 + int(input()))]
+    [(-1)**i * int(i + 1 // 2) for i in range(1, 1 + int(input()))]
+    a=1
