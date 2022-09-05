@@ -10,4 +10,5 @@ def solution(n):
 
     return int(rev_base, 3)
 
+
 # int(n진법 수, n) -> 10진법으로 바꾼 값
