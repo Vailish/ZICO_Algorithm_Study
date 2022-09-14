@@ -19,3 +19,9 @@ for case in range(1, 1+int(input())):
             print()
             cnt = 0
 
+
+
+
+
+
+

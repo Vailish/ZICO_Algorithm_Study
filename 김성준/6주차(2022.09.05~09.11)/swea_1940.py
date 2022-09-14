@@ -20,7 +20,7 @@ def solution(data):
 for case in range(1, 1 + int(input())):
     queue = []
     for _ in range(int(input())):
-        value = list(map(int,input().split()))
+        value = list(map(int, input().split()))
         if value == [0]:  # 인덱스 오류 제거용
             queue.append([0, 0])
         else:
