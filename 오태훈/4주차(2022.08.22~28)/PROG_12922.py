@@ -2,5 +2,4 @@
 
 
 def solution(n):
-    answer = ('수박' * n)[:n]
-    return answer
+    return ('수박' * n)[:n]
