@@ -1,27 +1,23 @@
 # 17682. [1차] 다트 게임
 
+# 1S2D*3T
+from collections import deque
+
 
 def solution(dartResult):
-    queue_dart = list(map(str, dartResult))
-    queue = []
-    while queue_dart:
-        v = queue_dart.pop(0)
-        if v.isdigit() and queue_dart:
-            v2 = queue_dart.pop(0)
-            if v2.isdigit():
-                queue.append(v + v2)
-            else:
-                queue.append(v)
-                queue.append(v2)
-        else:
-            queue.append(v)
+    queue = deque(list(map(str, dartResult)))
+    squared = '0'
     result_stack = []
     while queue:
-        value = queue.pop(0)
-
+        value = queue.popleft()
         if value.isdigit():
             value = int(value)
-            squared = queue.pop(0)
+            squared = queue.popleft()
+            if squared.isdigit():
+                while squared.isdigit():
+                    value = int(str(value) + squared)
+                    # value = 10
+                    squared = queue.popleft()
             if squared == 'D':
                 value = value**2
             elif squared == 'T':
@@ -41,7 +37,3 @@ def solution(dartResult):
     answer = sum(result_stack)
 
     return answer
-
-
-for _ in range(10):
-    print(solution(input()))
