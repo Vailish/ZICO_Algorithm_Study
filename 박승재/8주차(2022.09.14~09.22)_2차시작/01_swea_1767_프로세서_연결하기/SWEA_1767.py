@@ -3,15 +3,6 @@ import sys
 sys.stdin = open('input.txt')
 
 
-# 코어마다 따로 뚫려있는 부분만 chk_true를 사용하여 저장
-def chk(x, y):
-    result = []
-    for d in range(4):
-        if chk_true(x, y, d):
-            result.append(d)
-    return result
-
-
 # d 방향에 코어가 있는지 확인하여 코어가 없으면 True를 반환 코어가 있으면 False를 반환
 def chk_true(x, y, d):
     while True:
@@ -33,7 +24,7 @@ def dfs(t, c):
             answer_line = line
     else:
         x, y = chk_list[t]
-        for d in chk_direction[t]:
+        for d in range(4):
             # chk_true를 이용하여 해당하는 경로에 코어가 있는지 확인 코어가 없으면 진행
             if chk_true(x, y, d):
                 nx, ny = x, y
@@ -71,13 +62,10 @@ for test_case in range(1, int(input()) + 1):
     board = [list(map(int, input().split())) for _ in range(n)]
     success = (-1, n)
     chk_list = []
-    chk_direction = []
     for i in range(1, n - 1):
         for j in range(1, n - 1):
-            ck = chk(i, j)
-            if board[i][j] == 1 and ck:
+            if board[i][j] == 1:
                 chk_list.append((i, j))
-                chk_direction.append(ck)
     answer = []
     answer_core = 0
     answer_line = n**2
