@@ -10,7 +10,7 @@ for i in range(1, n + 1):
     while True:
         # An = A(n-2) - A(n-1)
         q.insert(2, q[0] - q[1])
-        # n이 음수이면 A(n-1)과 A(n-2) 리스트에 더한 후정지
+        # n이 음수이면 A(n-1)과 A(n-2) 리스트에 더한 후 정지
         if q[2] < 0:
             result += q[:2]
             break
