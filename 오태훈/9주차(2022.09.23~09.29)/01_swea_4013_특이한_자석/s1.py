@@ -5,7 +5,6 @@ import sys
 
 sys.stdin = open('input.txt')
 
-
 # 자석 하나를 회전 시키는 함수
 def turn(n, d):
     if d == 1:                                              # d == 1 일 때
@@ -14,9 +13,9 @@ def turn(n, d):
         magnets[n] = magnets[n][1:] + [magnets[n][0]]       # 반시계 방향으로 리스트 회전
 
 # dfs? 자석들을 회전시키는 함수
-def rotation(n,d):
+def rotation(n, d):
     visited[n] = True                                       # 자석 방문 True
-    turn(n,d)                                               # 회전
+    turn(n, d)                                              # 회전
     d = -d                                                  # 방향 반대
     if (n + 1) < 4 and status[n] and not visited[n+1]:      # 범위, 회전 가능 상태, 방문 상태 고려
         rotation(n+1, d)                                    # 오른쪽 자석 회전
@@ -38,7 +37,7 @@ for t in range(1, int(input()) + 1):
                 status.append(True)                         # True
             else:                                           # 극성이 같으면
                 status.append(False)                        # Fasle
-        rotation(n,d)                                       # 주어진 n번 자석 d방향 회전
+        rotation(n, d)                                      # 주어진 n번 자석 d방향 회전
     result = 0
     for score in range(4):                                  # 점수 계산
         result += magnets[score][0] * (2 ** score)
