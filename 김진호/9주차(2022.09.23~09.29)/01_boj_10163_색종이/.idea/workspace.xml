@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9fff9071-fa5c-4076-b623-6e5f22efbbba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../20220914_zico/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220730/1_10871.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220730/2_10807.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220730/3_5597.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220730/4_2738.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220730/5_10870.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220730/6_15964.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220730/7_2475.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220730/allinone.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220730/shortcoding.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220731/1_11654.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220731/2_2743.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220731/3_2744.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220731/4_2754.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220731/5_10809.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220731/6_11718.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220731/7_9086.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220731/allinone.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0801모임/20220801/swea_2072.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220722_algo/20220722_study.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220722_algo/answer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220722_algo/dolist.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2FHx8YOTRLxC8XNUtFeBk8pFPqf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fff9071-fa5c-4076-b623-6e5f22efbbba" name="Default Changelist" comment="" />
+      <created>1664162652863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664162652863</updated>
+    </task>
+    <servers />
+  </component>
+</project>
