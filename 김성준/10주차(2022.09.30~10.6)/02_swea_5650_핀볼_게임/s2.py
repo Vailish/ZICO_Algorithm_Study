@@ -1,7 +1,3 @@
-# 5650. [모의 SW 역량테스트] 핀볼 게임
-# https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo
-
-
 import sys
 sys.stdin = open('input.txt')
 
