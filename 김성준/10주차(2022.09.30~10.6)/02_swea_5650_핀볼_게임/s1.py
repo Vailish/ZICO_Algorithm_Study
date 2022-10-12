@@ -26,7 +26,6 @@ def solution():
         for j in range(N):
             if field[i][j] in {6, 7, 8, 9, 10}:
                 worm[field[i][j]].append((i, j))
-    print(worm)
 
     result = []  # 모든 경우의 점수 저장
     for i in range(N):
@@ -40,41 +39,41 @@ def solution():
                     nx, ny = x + dx, y + dy
                     score = 0
                     # 게임 시작
-                    print('(x,y)', (x, y), '(dx,dy)', (dx, dy))
                     if nx == -1 or ny == -1:
                         score += 1
                         result.append(score)
                         continue
 
-                    while field[nx][ny] != -1 or (x, y) != (nx, ny):
-                        print('(nx,ny)', (nx, ny), '(dx,dy)', (dx, dy), 'field[nx][ny]', field[nx][ny], 'score', score)
+                    while field[nx][ny] != -1 and (x, y) != (nx, ny):
                         # 벽 만날 때 까지 쭉 직진!
-                        while 0 <= nx < N and 0 <= ny < N and field[nx][ny] == 0:
+                        while 0 <= nx < N-1 and 0 <= ny < N-1 and field[nx][ny] == 0 and (x, y) != (nx, ny):
                             nx += dx
                             ny += dy
 
+
+                        # 모서리인 경우
+                        if (nx == 0 and dx == -1) or (nx == N-1 and dx == 1):
+                            dx *= -1
+                            score += 1
+
                         # 웜홀을 만난 경우
-                        if field[nx][ny] in {6, 7, 8, 9, 10}:
+                        elif field[nx][ny] in {6, 7, 8, 9, 10}:
                             for idx in worm[field[nx][ny]]:
                                 if (nx, ny) != idx:
                                     nx, ny = idx
-                                    continue
-                        # 모서리인 경우
-                        if (nx == 0 and dx == -1) or (nx == N and dx == 1):
-                            # nx -= dx
-                            dx *= -1
-                            score += 1
-                            continue
-                        elif (ny == 0 and dy == -1) or (ny == N and ny == 1):
-                            # ny -= dy
+
+                        elif (ny == 0 and dy == -1) or (ny == N-1 and ny == 1):
                             dy *= -1
                             score += 1
-                            continue
 
                         # 벽을 만났을 경우, 0과 N이 아니므로
-                        if field[nx][ny] in {1, 2, 3, 4, 5}:
+                        elif field[nx][ny] in {1, 2, 3, 4, 5}:
                             dx, dy = block[field[nx][ny]][direction_idx.index((dx, dy))]
                             score += 1
+
+                        nx += dx
+                        ny += dy
+
                     result.append(score)
 
     return max(result)
