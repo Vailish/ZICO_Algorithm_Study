@@ -25,7 +25,7 @@ def search(arr):
                 cnt = 1
             if cnt == K:
                 break
-        else:  # for 문을 break 해서 빠져 나왔다면 False
+        else:  # for 문을 정상적으로 빠져 나왔다면 else / break로 나왔다면 else를 건너뛰고 진행
             return False
 
     return True
@@ -47,10 +47,8 @@ def dfs(arr, depth, ans):  # 현 상태배열, 행의 위치, 변경 횟수
     dfs(arr, depth + 1, ans)
     for change in [0, 1]:  # 0 = A약품, 1 = B약품
         tmp_lst = arr[:]
-        if change == 0:
-            tmp_lst[depth] = [0] * W
-        elif change == 1:
-            tmp_lst[depth] = [1] * W
+        tmp_lst[depth] = [change] * W
+
         dfs(tmp_lst, depth + 1, ans + 1)
 
 

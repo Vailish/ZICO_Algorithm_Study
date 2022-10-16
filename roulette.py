@@ -38,5 +38,5 @@ people = random.sample(['김성준', '김진호', '박승재', '오태훈', '이
 ### 출력단 ###
 print('#' * 50)
 for i in range(6):
-    print(f'{people[i]} : {순서[problems[i]]}')
+    print(f'{people[i]} : {제목[problems[i]]}')
 print('#' * 50)
