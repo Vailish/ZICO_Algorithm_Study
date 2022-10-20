@@ -10,18 +10,20 @@ def solution(answers):
     score = [0, 0, 0]  # 순서대로
 
     for n in range(len(answers)):
-
+        # 1번 수포자가 맞춘 개수
         if one[n % 5] == answers[n]:
             score[0] += 1
-
+        # 2번 수포자가 맞춘 개수
         if two[n % 8] == answers[n]:
             score[1] += 1
-
+        # 3번 수포자가 맞춘 개수
         if three[n % 10] == answers[n]:
             score[2] += 1
 
+    # 최대값 구하기
     max_num = max(score)
     result = []
+    # 동점자 구하기
     for i in range(3):
         if score[i] == max_num:
             result.append(i + 1)
