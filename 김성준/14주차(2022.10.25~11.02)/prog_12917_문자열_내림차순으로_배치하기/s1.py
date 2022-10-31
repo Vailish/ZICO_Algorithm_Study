@@ -1,44 +1,23 @@
-# 하 우 좌상 하 우 좌상
-di = [1, 0, -1]
-dj = [0, 1, -1]
+# prog_12917 문자열 내림차순으로 배치하기
+# https://school.programmers.co.kr/learn/courses/30/lessons/12917
 
+# 65 ~ 90 = A ~ Z
+# 97 ~ 122 = a ~ z
 
-def solution(n):
-    def dfs(i, j, direction):
-        nonlocal count
-        count += 1
-        visited[i][j] = True
-        arr[i][j] = count
+def solution(s):
+    # 65 ~ 90 = A ~ Z
+    # 97 ~ 122 = a ~ z
+    chrs_lower = []
+    chrs_upper = []
+    for chr in s:
+        if ord(chr) > 90:
+            chrs_lower.append(chr)
+        else:
+            chrs_upper.append(chr)
+    answer = sorted(chrs_lower)[::-1] + sorted(chrs_upper)[::-1]
+    return ''.join(answer)
 
-        next_i = i + di[direction]
-        next_j = j + dj[direction]
-        if 0 <= next_i < n and 0 <= next_j < n and not visited[next_i][next_j]:
-            count += 1
-            visited[next_i][next_j] = True
-            arr[next_i][next_j] = count
-
-            for _ in range((n * (n + 1)) // 2):
-                next_i += di[direction]
-                next_j += dj[direction]
-                print(next_i, next_j)
-                print(arr)
-
-                if 0 <= next_i < n and 0 <= next_j < n and not visited[next_i][next_j]:
-                    count += 1
-                    visited[next_i][next_j] = True
-                    arr[next_i][next_j] = count
-                else:
-                    direction = (direction + 1) % 3
-
-
-    arr = [[0] * n for _ in range(n)]
-    visited = [[False] * n for _ in range(n)]
-    count = 0
-    dfs(0, 0, direction=0)
-    answer = arr
-    return answer
-
-
-# print(solution(4))
-print(solution(5))
-# print(solution(6))
+# 문제 조건상 굳이 따로 분리해서 할 필요 없음...
+# def solution(s):
+#     return ''.join(sorted(s, reverse=True))
+# 이러면 끝;
