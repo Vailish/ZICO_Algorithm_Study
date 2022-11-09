@@ -10,7 +10,7 @@ def solution(planting_trees):
     trees = [[[] for _ in range(N)] for _ in range(N)]
     # 기본 필드에 나무 심어주기
     for x, y, a in planting_trees:
-        trees[x-1][y-1].append(a)  # (1, 1)부터 시작하기 때문
+        trees[x][y].append(a)  # (1, 1)부터 시작하기 때문
     for year in range(K):
         # 봄
         dead_trees = []  # 죽은 나무, (x, y, 나이)
@@ -36,9 +36,8 @@ def solution(planting_trees):
         # 가을
         for r, c in plus_trees:
             for direction in range(8):
-                # 상 하 좌 우 우상 우하 좌상 좌하
-                nr = r + [-1, 1, 0, 0, -1, 1, -1, 1][direction]
-                nc = c + [0, 0, -1, 1, 1, 1, -1, -1][direction]
+                nr = r + dr[direction]
+                nc = c + dc[direction]
                 if 0 <= nr < N and 0 <= nc < N:
                     live_trees[nr][nc].append(1)
 
@@ -57,6 +56,9 @@ def solution(planting_trees):
 
 N, M, K = map(int, input().split())  # N = 땅크기, M = 초기 나무 수, K = 경과 기간
 fertilizer = [list(map(int, input().split())) for _ in range(N)]  # 겨울에 주는 영양분의 양
+# 상 하 좌 우 우상 우하 좌상 좌하
+dr = [-1, 1, 0, 0, -1, 1, -1, 1]
+dc = [0, 0, -1, 1, 1, 1, -1, -1]
 
 planting_trees = []
 for _ in range(M):
