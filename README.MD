@@ -1,6 +1,6 @@
 # ZICO 스터디
 
-![ZICO](https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA4MzBfMTAz%2FMDAxNTk4Nzc4MjI0NjAy.rdZmKRzE8D6X0nkoEgd3_isSdFINUphh0_L70MAA_nAg.BquODeEAvjNwyYDp8AODY9u8Zh2v-XSKJVjixNNYf2Ug.JPEG.corhdwn31%2FIMG_7659.JPG&type=sc960_832 "zico")
+![ZICO](https://newsimg.hankookilbo.com/cms/articlerelease/2021/01/07/7de72ee9-24d0-4452-a418-c70764921860.jpg)
 
 
 
@@ -22,10 +22,17 @@
 
 ### 기간
 - 1차 : 2022.08.01. ~ 2022.09.13.(1차)
-  - 목표 : SW Expert Academy D1, D2 44문제 전부 풀기
+  - 목표 : SW Expert Academy D1, D2 44문제로 기초 잡기
+- 2차 : 2022.09.14 ~ 2022.11.09(2차)
+  - 목표 : IM이상 난이도의 문제로 유형 잡기
+- 3차 : 2022.12.14 ~ 
+  - 목표 : 기출문제를 비롯한 다양한 난이도와 유형으로 실전감각 잡기
 
-### 활동 시간
-- 활동 시간 : 주 3회(월, 수, 금) 22시 ~ 24시
+### 스터디 시간
+- 매주 수요일 20시 
+
+### 스터디 세부내용
+- [3차](https://github.com/Vailish/ZICO_Algorithm_Study/blob/master/roulette.py)
 
 ### 진행 방법
 1. 스터디 전 각자 정해진 문제를 풀어 보고, 설명할 준비 및 깃허브에 올립니다.
