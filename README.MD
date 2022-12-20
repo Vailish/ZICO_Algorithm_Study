@@ -1,4 +1,4 @@
-# ZICO 스터디
+# [ZICO 스터디](https://github.com/Vailish/ZICO_Algorithm_Study/blob/master/ZICO_3rd.py)
 
 ![ZICO](https://newsimg.hankookilbo.com/cms/articlerelease/2021/01/07/7de72ee9-24d0-4452-a418-c70764921860.jpg)
 
@@ -32,7 +32,7 @@
 - 매주 수요일 20시 
 
 ### 스터디 세부내용
-- [3차](https://github.com/Vailish/ZICO_Algorithm_Study/blob/master/roulette.py)
+- [3차](https://github.com/Vailish/ZICO_Algorithm_Study/blob/master/ZICO_3rd.py)
 
 ### 진행 방법
 1. 스터디 전 각자 정해진 문제를 풀어 보고, 설명할 준비 및 깃허브에 올립니다.
