@@ -1,4 +1,4 @@
-# [ZICO 스터디](https://github.com/Vailish/ZICO_Algorithm_Study/blob/master/ZICO_3rd.py)
+# [ZICO 스터디](https://github.com/Vailish/ZICO_Algorithm_Study/blob/master/ZICO_3rd.md)
 
 ![ZICO](https://newsimg.hankookilbo.com/cms/articlerelease/2021/01/07/7de72ee9-24d0-4452-a418-c70764921860.jpg)
 

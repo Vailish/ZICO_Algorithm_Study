@@ -19,7 +19,7 @@
 
 |난이도|문제|발표자|
 |------|---|---|
-|lv2|[디펜스게임](https://school.programmers.co.kr/learn/courses/30/lessons/142085)|김성준|
+|lv2|[디펜스게임](https://school.programmers.co.kr/learn/courses/30/lessons/142085)|[김성준](https://github.com/Vailish/ZICO_Algorithm_Study/blob/master/%EA%B9%80%EC%84%B1%EC%A4%80/3%EC%B0%A8(2022.12.14~)/1%EC%A3%BC%EC%B0%A8(2022.12.15%20~%2012.21)/prog_142085_%EB%94%94%ED%8E%9C%EC%8A%A4_%EA%B2%8C%EC%9E%84/s1.py)|
 |lv2|[점 찍기](https://school.programmers.co.kr/learn/courses/30/lessons/140107)|오태훈|
 |lv2|[귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476)|이가은|
 |lv3|[억억단을 외우자](https://school.programmers.co.kr/learn/courses/30/lessons/138475)|박승재|
