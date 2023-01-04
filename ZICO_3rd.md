@@ -1,16 +1,30 @@
 # 스케쥴
-### 2022. 12. 28 공지
-다음주 문제입니다!
-
+### 2023. 1. 4. 공지
 |난이도|문제|발표자|
 |------|---|---|
 |lv2|[두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)||
-|lv2|[혼자 놀기의 달인](https://school.programmers.co.kr/learn/courses/30/lessons/131130)||
-|lv2|[테이블 해시 함수](https://school.programmers.co.kr/learn/courses/30/lessons/147354)||
-|lv2|[할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/131127)||
-|lv3|[등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)||
 |lv3|[코딩테스트 공부](https://school.programmers.co.kr/learn/courses/30/lessons/118668)||
-|lv3|[카운트 다운](https://school.programmers.co.kr/learn/courses/30/lessons/131129)|도전문제|
+
+### 2022. 12. 28 공지
+다음주 문제입니다!
+회의 결과 학기 중에 따라서 부담증가함에 맞춰 문제수와 스터디 방식을 조정하기로 결정하였습니다.
+- 푸는 모든 문제를 모든 인원이 발표합니다.
+- 주 2문제로 변경합니다.(lv2 1문제, lv3 1문제)
+
+|난이도|문제|발표자|
+|------|---|---|
+
+[comment]: <> (|lv2|[두 큐 합 같게 만들기]&#40;https://school.programmers.co.kr/learn/courses/30/lessons/118667&#41;||)
+
+[comment]: <> (|lv2|[혼자 놀기의 달인]&#40;https://school.programmers.co.kr/learn/courses/30/lessons/131130&#41;||)
+|lv2|[테이블 해시 함수](https://school.programmers.co.kr/learn/courses/30/lessons/147354)||
+
+[comment]: <> (|lv2|[할인 행사]&#40;https://school.programmers.co.kr/learn/courses/30/lessons/131127&#41;||)
+|lv3|[등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)||
+
+[comment]: <> (|lv3|[코딩테스트 공부]&#40;https://school.programmers.co.kr/learn/courses/30/lessons/118668&#41;||)
+
+[comment]: <> (|lv3|[카운트 다운]&#40;https://school.programmers.co.kr/learn/courses/30/lessons/131129&#41;|도전문제|)
 
 
 ### 2022.12.21 공지
