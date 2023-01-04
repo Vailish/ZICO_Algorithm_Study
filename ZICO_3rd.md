@@ -1,5 +1,7 @@
 # 스케쥴
 ### 2023. 1. 4. 공지
+다음 주 문제입니다!
+
 |난이도|문제|발표자|
 |------|---|---|
 |lv2|[두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)||
