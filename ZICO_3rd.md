@@ -1,15 +1,25 @@
 # 스케쥴
+### 2023. 1. 11. 공지
+|lv2| [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369) ||
+|lv3| [표현 가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367) ||
+
+### 2023. 1. 4. 공지
+|lv2|[두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)||
+|lv3|[코딩테스트 공부](https://school.programmers.co.kr/learn/courses/30/lessons/118668)||
+
 ### 2022. 12. 28 공지
 다음주 문제입니다!
 
 |난이도|문제|발표자|
 |------|---|---|
-|lv2|[두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)||
-|lv2|[혼자 놀기의 달인](https://school.programmers.co.kr/learn/courses/30/lessons/131130)||
 |lv2|[테이블 해시 함수](https://school.programmers.co.kr/learn/courses/30/lessons/147354)||
-|lv2|[할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/131127)||
 |lv3|[등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)||
-|lv3|[코딩테스트 공부](https://school.programmers.co.kr/learn/courses/30/lessons/118668)||
+
+|난이도|문제|발표자|
+|------|---|---|
+
+|lv2|[혼자 놀기의 달인](https://school.programmers.co.kr/learn/courses/30/lessons/131130)||
+|lv2|[할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/131127)||
 |lv3|[카운트 다운](https://school.programmers.co.kr/learn/courses/30/lessons/131129)|도전문제|
 
 
