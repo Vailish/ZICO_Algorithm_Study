@@ -17,7 +17,6 @@
 
 |난이도|문제|발표자|
 |------|---|---|
-
 |lv2|[혼자 놀기의 달인](https://school.programmers.co.kr/learn/courses/30/lessons/131130)||
 |lv2|[할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/131127)||
 |lv3|[카운트 다운](https://school.programmers.co.kr/learn/courses/30/lessons/131129)|도전문제|
