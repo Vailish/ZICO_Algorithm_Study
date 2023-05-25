@@ -1,4 +1,15 @@
 # 스케쥴
+
+### 2023. 2. 1. 공지
+
+
+### 2023. 1. 25. 공지
+프로젝트 부담으로 인해 다음 주로 이주
+
+### 2023. 1. 18. 공지
+|lv2| [시소 짝궁](https://school.programmers.co.kr/learn/courses/30/lessons/152996) ||
+|lv3| [인사 고과](https://school.programmers.co.kr/learn/courses/30/lessons/152995) ||
+
 ### 2023. 1. 11. 공지
 |lv2| [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369) ||
 |lv3| [표현 가능한 이진트리](https://school.programmers.co.kr/learn/courses/30/lessons/150367) ||
