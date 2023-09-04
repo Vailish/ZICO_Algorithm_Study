@@ -17,7 +17,7 @@ def solution():
     dr = [-1, 1, 0, 0]
     dc = [0, 0, -1, 1]
 
-    # 일반인 dfs
+    # dfs
     def dfs(start_r, start_c, color):
         r, c = start_r, start_c
         visited[r][c] = 1
