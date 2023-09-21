@@ -6,26 +6,40 @@
 # DFS를 사용하여 최대 감염 수를 구한 뒤
 # 최고 감염 수를 가진 노드를 찾는다
 
+# 시간초과 -> bfs로
 
 import sys
 sys.stdin = open('input.txt')
 
-
-def dfs():
-    return
-
-
 def solution():
+    def dfs(v):
+        visited[v] = True
+        for next_v in graph[v]:
+            if not visited[next_v]:
+                dfs(next_v)
+
     N, M = map(int, input().split())  # N = 노드의 수, M = 경로의 수
-    graph = [list(map(int, input().split())) for _ in range(M)]
-    visited = [0] * N
-    for i in range(N):
-        dfs(i, visited)
+    edges = [list(map(int, input().split())) for _ in range(M)]
+    graph = [[] for _ in range(N+1)]
+    for v1, v2 in edges:
+        graph[v2].append(v1)
+    max_count = 0
+    max_node = []
+    for i in range(1, N+1):
+        visited = [0] * (N+1)
+        dfs(i)
+        tmp = visited.count(True)
+        if tmp > max_count:
+            max_count = tmp
+            max_node = [i]
+        elif tmp == max_count:
+            max_node.append(i)
+
+    print(*max_node)
     return
 
 
 solution()
-
 
 # import sys
 # sys.stdin = open('input.txt')
