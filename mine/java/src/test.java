@@ -1,25 +1,11 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class test {
-
-    static int[] myMethod(int[] arr){
-        int[] array = arr;
-        int a = 0;
-        int b = 1;
-        int tmp = arr[a];
-        array[a] = array[b];
-        array[b] = tmp;
-        System.out.println(Arrays.toString(array));
-
-        return array;
-    }
-
-
     public static void main(String[] args) {
-//        int[] yop = {1, 2};
-//        ;
-//        System.out.println(Arrays.toString(myMethod(yop)));
-
+        int[] num = {1, 2, 3};
+        System.out.println(num.length);
+        System.out.println(num[0] + num[1]);
 
     }
 }
