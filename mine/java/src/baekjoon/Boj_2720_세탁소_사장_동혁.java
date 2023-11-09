@@ -2,7 +2,7 @@ package baekjoon;
 
 import java.util.Scanner;
 
-public class BOJ_2720_세탁소_사장_동혁 {
+public class Boj_2720_세탁소_사장_동혁 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] coins = {25, 10, 5, 1};
