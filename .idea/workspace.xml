@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da959ac8-999e-46bb-88ec-9e5c38af01ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_11651_좌표_정렬하기_2/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_11651_좌표_정렬하기_2/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_11651_좌표_정렬하기_2/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_1676_팩토리얼_0의_개수/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_18110_solved.ac/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_18110_solved.ac/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_18110_solved.ac/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_1920_수_찾기/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_1920_수_찾기/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_1920_수_찾기/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_1920_수_찾기/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_1920_수_찾기/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_2231_분해합/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_2775_부녀회장이_될테야/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_4949_균형잡힌_세상/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_4949_균형잡힌_세상/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_7568_덩치/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/python/case/baekjoon/boj_7568_덩치/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ZICO_Algorithm_Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ZICO_Algorithm_Study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/python/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/python/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/python/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/python/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/python/.idea/python.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine/python/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine/python/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine/python/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mine/python/.idea/python.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +28,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mine/python/case/baekjoon/boj_7568_덩치" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\coding\Github_Vailish\ZICO_Algorithm_Study\mine\python\case\baekjoon\boj_7568_덩치" />
@@ -75,6 +54,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mine/python/case/baekjoon/boj_11651_좌표_정렬하기_2/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -96,6 +76,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mine/python/case/baekjoon/boj_7568_덩치/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -117,6 +98,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mine/python/case/baekjoon/boj_1676_팩토리얼_0의_개수/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -138,6 +120,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mine/python/case/baekjoon/boj_4949_균형잡힌_세상/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -159,6 +142,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mine/python/case/baekjoon/boj_18110_solved.ac/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -186,6 +170,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689131373028</updated>
+      <workItem from="1699947594158" duration="9000" />
     </task>
     <servers />
   </component>
