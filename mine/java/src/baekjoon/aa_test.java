@@ -7,6 +7,10 @@ import java.util.Iterator;
 
 public class aa_test {
     public static void main(String[] args) {
+        String[] ttt = new String[]{"abcdefg"};
+        System.out.println(
+                ttt[0].charAt(1) == 'b'
+        );
         System.out.println("테스트 시작!");
         cal();
         System.out.println("테스트 종료!");
