@@ -13,57 +13,49 @@ public class Boj_5525_IOIOI_3 {
         int m = Integer.parseInt(br.readLine());
         String s = br.readLine();
 
-        Map<Integer, Integer> pArray = new HashMap<>();
+        Map<Integer, Integer> countingMap = new HashMap<>();
         char word;
-        int cnt=0; // IOIOIOIOI순으로만 들어감, last도 cnt 수로 알 수 있음,홀수 = 'I', 짝수 = 'O'
+        int cnt=0; // IOIOIOIOI순으로만 들어감, last도 cnt 수로 알 수 있음, 홀수 = 'I', 짝수 = 'O'
         for (int i=0; i<m; i++) {
             word = s.charAt(i);
-            if (cnt == 0) { //
+            if (cnt == 0) { // cnt는 IOIOIOI... 순으로 쌓이는 문자의 수 -> 무조건 맞는 경우만 세고, 나머지는 예외처리하겠다
                 if (word == 'I') {
-                    ++cnt;
+                    cnt = 1;
                 }
             } else {
                 if (cnt%2 == 1) { // ...I
                     if (word == 'I') {
-                       // O으로 끝날 경우만 피해주면 됨
-                       // MAP에 IOIOIOI에서 O의 개수로 계산
-
-                        if (o != 0) {
-                            if (pArray.containsKey(o)) pArray.put(o, pArray.get(o)+1);
-                            else pArray.put(o, 1);
-                            o = 0;
-                        }
-                        cnt = 0;
+                        // I IOI IOIOI
+                        // 3->1 5->2 7->3 n->n/2
+                        if (!countingMap.containsKey(cnt/2)) countingMap.put(cnt/2, 0);
+                        countingMap.put(cnt/2,countingMap.get(cnt/2)+1);
+                        cnt = 1;
                     } else { // word가 "O"인경우
                         ++cnt;
                     }
                 } else { // ...O
                     if (word == 'I') {
-                        now += "I";
-                    } else {
-                        if (o > 1) {
-                            if (pArray.containsKey(o-1)) pArray.put(o-1, pArray.get(o-1)+1);
-                            else pArray.put(o-1, 1);
-                        }
-                        cnt =0;
+                        ++cnt;
+                    } else { //...O가 나옴
+                        // IO, IOIO, IOIOIO
+                        // 2->0, 4->1 6->2, n->(n-1)/2
+                        --cnt;
+                        if (!countingMap.containsKey(cnt/2)) countingMap.put(cnt/2, 0);
+                        countingMap.put(cnt/2,countingMap.get(cnt/2)+1);
+                        cnt = 0;
                     }
                 }
             }
         }
-        if (o !=0) {
-            last = now.charAt(now.length()-1);
-            if (last == 'I') {
-                if (pArray.containsKey(o)) pArray.put(o, pArray.get(o)+1);
-                else pArray.put(o, 1);
-            } else {
-                if (pArray.containsKey(o-1)) pArray.put(o-1, pArray.get(o-1)+1);
-                else pArray.put(o-1, 1);
-            }
+        if (cnt !=0) {
+            if (cnt%2==0)--cnt;
+            if (!countingMap.containsKey(cnt/2)) countingMap.put(cnt/2, 0);
+            countingMap.put(cnt/2,countingMap.get(cnt/2)+1);
         }
         int answer = 0;
-        for (int key:pArray.keySet()) {
+        for (int key:countingMap.keySet()) {
             if (key >= n) {
-                answer += (key-n+1) * pArray.get(key);
+                answer += (key-n+1) * countingMap.get(key);
             }
         }
         System.out.println(answer);
