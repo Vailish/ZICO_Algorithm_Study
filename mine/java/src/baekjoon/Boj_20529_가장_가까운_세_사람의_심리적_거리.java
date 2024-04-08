@@ -16,6 +16,12 @@ public class Boj_20529_가장_가까운_세_사람의_심리적_거리 {
             PriorityQueue<Integer> heap = new PriorityQueue<>();
             N = Integer.parseInt(br.readLine());
             mbtis = br.readLine().split(" ");
+            // 비둘기집 원리, MBTI가 16개 이므로 33개부터는 3개는 무조건 나옴
+            // 즉, 비교군이 3개가 같으면 거리는 0이 되므로 0으로 처리할 수 있다.
+            if (N > 32) {
+                answer.append(0).append("\n");
+                continue;
+            }
             for (int i=0; i<N-2; i++) {
                 for (int j=i+1; j<N-1; j++) {
                     for (int k=j+1; k<N; k++) {
