@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da959ac8-999e-46bb-88ec-9e5c38af01ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mine/python/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine/python/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/python/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mine/python/.idea/python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mine/java/src/baekjoon/Boj_7569_토마토.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ZICO_Algorithm_Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ZICO_Algorithm_Study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2SSE28cSv3PifhLVLtRYmaATvTK" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -32,6 +36,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -41,7 +47,7 @@
       <recent name="D:\coding\Github_Vailish\ZICO_Algorithm_Study\mine\python\case\baekjoon\boj_1920_수_찾기" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s1">
+  <component name="RunManager">
     <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ZICO_Algorithm_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,15 +158,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.s1" />
-        <item itemvalue="Python.s1 (5)" />
-        <item itemvalue="Python.s1 (4)" />
-        <item itemvalue="Python.s1 (3)" />
-        <item itemvalue="Python.s1 (2)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

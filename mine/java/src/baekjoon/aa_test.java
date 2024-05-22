@@ -4,18 +4,26 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Iterator;
+import java.util.regex.Pattern;
 
 public class aa_test {
     public static void main(String[] args) {
-        String[] ttt = new String[]{"abcdefg"};
-        System.out.println(
-                ttt[0].charAt(1) == 'b'
-        );
         System.out.println("테스트 시작!");
-        cal();
+        convertTest();
         System.out.println("테스트 종료!");
     }
+    public static void convertTest() {
+//        String dateString = "2024-04-09 15:58:44.0";
+        String dateString = "2024-04-09T06:58:44.000+00:00";
+//        String pattern = "\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d";
+        String pattern = "\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}\\+\\d{2}:\\d{2}";
 
+        if (Pattern.matches(pattern, dateString)) {
+            System.out.println("주어진 문자열은 날짜 형식을 따릅니다.");
+        } else {
+            System.out.println("주어진 문자열은 날짜 형식을 따르지 않습니다.");
+        }
+    }
     public static void cal() {
         Calendar wNow = Calendar.getInstance();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd");
