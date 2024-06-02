@@ -17,17 +17,21 @@ public class ComparableTest {
         public int compareTo(Element o) {
 //            if (this.value == o.value) return this.index - o.index;
 //            return this.value - o.value;
-            if (this.value == o.value) return - this.index + o.index;
-            return - this.value + o.value;
+
+//            if (this.value == o.value) return - this.index + o.index;
+//            return + this.value - o.value;
+
+            if (this.index == o.index) return - this.value + o.value;
+            return - this.index + o.index;
         }
     }
     public static void main(String[] args) {
         Element[] elements = {
-                new Element(10, 0),
-                new Element(11, 1),
-                new Element(12, 2),
-                new Element(13, 3),
-                new Element(14, 4),
+                new Element(10000, 0),
+                new Element(1000, 1),
+                new Element(100, 2),
+                new Element(10, 3),
+                new Element(1, 4),
         };
         Arrays.sort(elements);
         for (Element element : elements) {
